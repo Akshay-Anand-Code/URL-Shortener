@@ -19,3 +19,5 @@ func (mgr *manager) GetUrlFromCode(code string, collectionName string) (resp typ
 	err = inst.FindOne(context.TODO(), bson.M{"url_code": code}).Decode(&resp)
 	return resp, err
 }
+
+//

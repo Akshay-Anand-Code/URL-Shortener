@@ -19,3 +19,5 @@ const (
 const (
 	BindError = "there is something wrong while binding"
 )
+
+//

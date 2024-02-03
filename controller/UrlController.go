@@ -57,3 +57,5 @@ func RedirectURL(c *gin.Context) {
 
 	c.Redirect(http.StatusPermanentRedirect, record.LongUrl)
 }
+
+//

@@ -12,3 +12,5 @@ func GenRandomString(n int) string {
 	}
 	return string(b)
 }
+
+//
